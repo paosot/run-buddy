@@ -36,23 +36,27 @@
     </nav>
 </header>
 <!--hero section-->
-  <section>
-    <div>
+  <section class="hero">
+    <div class="hero-form">
          <h3>Get Started Today</h3>
          <p>Fill Out This Form And One of Our Trainers Will Schedule a Consult</p>
     <!--Add form element -->
         <form>
           <label for="name">Enter Full Name:</label>  
-          <input type="text" placeholder="Your Name" name="name" id="name"  />
-          <label for="email"> Enter Email <Address></Address>: </label>
-          <input type="email" placeholder="Your Email" name="name" id="email" />
+          <input type="text" placeholder="Your Name" name="name" id="name"  class="form-input"/>
+        
+          <label for="email"> Enter Email Address: </label>
+          <input type="email" placeholder="Your Email" name="name" id="email" class="form-input"/>
+        
           <label for="number"> Enter A Phone Number:</label>
-          <input type="tel" placeholder="Your Number" name="name" id="number" />
+          <input type="tel" placeholder="Your Number" name="name" id="number" class="form-input" />
+        
         <label>
           <p>
             Have You Worked Out With a Trainer Before?
             <input type="radio" name="trainer-confirm" id="trainer-yes" />
             <label for="trainer-yes">Yes</label>
+
             <input type="radio" name="trainer-confirm" id="trainer-no" />
             <label for= "trainer-no">No</label>
          <br>
